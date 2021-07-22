@@ -1,0 +1,6 @@
+data/
+results/
+.vscode/
+venv/
+__pycache_/
+*.pyc
