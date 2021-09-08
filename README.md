@@ -1,4 +1,5 @@
 # Explainable Machine Learning for power grid frequency stability
+
 Code accompanying the mansucript "Revealing drivers and risks for power grid frequency stability with explainable AI".
 Preprint: <https://arxiv.org/abs/2106.04341>
 
@@ -31,6 +32,6 @@ The `scripts` contain a pipeline of six different stages:
 All the raw data is publicly available and we have uploaded the processed data and our results on zenodo. The data and the (intermediate) results can be used to run the scripts.
 
 * **External features, frequency stability indicators and results of hyper-parameter optimization and model interpretation**: The output of scripts 2 to 6 are available on [zenodo](https://zenodo.org/record/5118352). The data is assumed to reside in the repository directory within `./data/` and the results should reside in `./results/`. In particular, the data of external features and stability indicators can be used to re-run the model fit. 
-* **Raw grid frequency data**: We have used publicly available [grid frequency data](https://zenodo.org/record/5105820) as an input to `2_stability_indicator_prep.py`. The CSV files from the repository are assumed to reside in `../Frequency_data_base/` relative to this code repository.
+* **Raw grid frequency data**: We have used pre-processed [grid frequency data](https://zenodo.org/record/5105820) as an input to `2_stability_indicator_prep.py`.  The CSV files from the repository are assumed to reside in `../Frequency_data_base/` relative to this code repository.  The frequency data is originally based on publicly available measurements from [TransnetBW](https://www.transnetbw.de/de/strommarkt/systemdienstleistungen/regelenergie-bedarf-und-abruf).
 * **Raw ENTSO-E data**: The output of `1_download_data.sh` is not available on the zenodo repository, but can be downloaded from the [ENTSO-E Transparency Platform](transparency.entsoe.eu/) via the bash script. The ENTSO-E data is assumed to reside in `../../External_data/ENTSO-E` relative to this code repository.
 
