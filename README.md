@@ -1,5 +1,9 @@
 # Explainable Machine Learning for power grid frequency stability
 
+
+[![DOI](https://zenodo.org/badge/388359304.svg)](https://zenodo.org/badge/latestdoi/388359304)
+
+
 Code accompanying the mansucript "Revealing drivers and risks for power grid frequency stability with explainable AI".
 Preprint: <https://arxiv.org/abs/2106.04341>
 
